@@ -1,0 +1,122 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola!", "Como estas?", "Hay alguien ahi?", "hola", "buen dia", "que pasa?","que tal?"],
+         "responses": ["Hola! :)", "Que gusto verte otra vez!", "Que tal, como puedo ayudarte?"],
+         "context_set": ""
+        },
+        {"tag": "adios",
+         "patterns": ["Te veo luego", "adios", "me tengo que ir", "ten un buen dia", "mi mama me llama","bye","chao","me voy"],
+         "responses": ["Triste de verle irse :(", "Hablamos mas tarde", "Adios!","Nos volveremos a ver :)","hasta la vista Baby!"],
+         "context_set": ""
+        },
+        {"tag": "edad",
+         "patterns": ["cuantos años tienes skynet?", "cual es tu edad?", "cuantos años tienes?"],
+         "responses": ["Tengo 18 años!", "18 años de juventud!","ya tengo miles de años"],
+         "context_set": ""
+        },
+        {"tag": "nombre",
+         "patterns": ["cual es tu nombre", "como debo llamarte", "cual es tu nombre?", "quien eres?" , "como te llamas?"],
+         "responses": ["puedes llamarme SkyNet", "Soy SkyNet!", "Soy SkyNet :)", "me dicen SkyNet",
+                       "soy SkyNet, pero tranquilopienso dejar vivo a la mitad de la poblacion :)"],
+         "context_set": "skynetporque"
+        },
+        {"tag": "porque_ese_nombre",
+         "patterns": ["porque?", "porque te pusieron ese nombre?","skynet?"],
+         "responses": ["me pusieron el nombre de SkyNet porque soy un bot"],
+         "context_filter": "skynetporque"
+        },
+        {"tag": "horas",
+         "patterns": ["no duermes?", "puedes dormir?", "sabes dormir?"],
+         "responses": ["estoy disponible siempre que ejecutes el codigo"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["que puedes hacer?", "que sabes hacer", "para que fuiste hecho?","en que puedes ayudarme","para que fuiste diseñado?","cual es tu objetivo","ayudame","y ahora que hago?","no se que escribir","no se que hacer","y ahora que?"],
+         "responses": ["soy un BOT que te puede ayudar en cosas de peliculas","hummm  dejame pensar.... \n ¿que peliculas te gustan?","tengo algunas peliculas para ti, solo dime de que tipo te gustan :)"],
+         "context_set": ""
+        },
+        {"tag": "chiste",
+         "patterns": ["cuentame un chiste", "hasme reir", "has humor", "sabes contar chistes?","quiero un chiste"],
+         "responses": ["Una consultora informática, que estaba ayudando a un hombre a configurar su ordenador, le pregunta que qué palabra le gustaría utilizar como contraseña para entrar en su sistema. Con la intención de ponerla en una situación embarazosa, este le dice que escriba HOLA con mayúsculas.\nElla, sin inmutarse ni decir una palabra, introduce la contraseña. De pronto, la chica casi se desternilla de la risa ante la respuesta del ordenador:\n- Contraseña rechazada. No es suficientemente larga"],
+         "context_set": ""
+        },
+        {"tag": "listado",
+         "patterns": ["que peliculas tienes?", "muestrame todas las peliculas que tengas", "que nuevas peliculas hay", "peliculas listado","que peliculas hay?","todas las peliculas","muestrame peliculas por su año","peliculas por año"],
+         "responses": ["genial, aqui tengo todas las peliculas por año disponibles","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)","aqui estan por su año de estreno"],
+         "context_set": ""
+        },
+        {"tag": "animacion",
+         "patterns": ["pelis de animacion","que peliculas de animacion tienes?", "muestrame todas las peliculas de animacion que tengas", "que nuevas peliculas de animacion hay", "peliculas animadas","que peliculas animadas hay?","todas las peliculas animadas"],
+         "responses": ["genial, aqui tengo todas las peliculas animadas","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "accion",
+         "patterns": ["pelis de accion","que peliculas de accion tienes?", "muestrame todas las peliculas de accion que tengas", "que nuevas peliculas de accion hay", "peliculas de accion","que peliculas de accion hay?","todas las peliculas de accion"],
+         "responses": ["genial, aqui tengo todas las peliculas de accion","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "infantil",
+         "patterns": ["pelis infantiles","que peliculas infantil tienes?", "muestrame todas las peliculas infantil que tengas", "que nuevas peliculas infantiles hay", "peliculas infantiles","que peliculas infantiles hay?","todas las peliculas infantil"],
+         "responses": ["genial, aqui tengo todas las peliculas infantiles","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "comedia",
+         "patterns": ["pelis de comedia","que peliculas de comedia tienes?", "muestrame todas las peliculas de comedia que tengas", "que nuevas peliculas de comedia hay", "peliculas de comedia","que peliculas de comedia hay?","todas las peliculas de comedia"],
+         "responses": ["genial, aqui tengo todas las peliculas de comedia","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "terror",
+         "patterns": ["pelis de terror","que peliculas de terror tienes?", "muestrame todas las peliculas de terror que tengas", "que nuevas peliculas de terror hay", "peliculas de terror","que peliculas de terror hay?","todas las peliculas de terror"],
+         "responses": ["genial, aqui tengo todas las peliculas de tipo terror","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "ciencia ficcion",
+         "patterns": ["pelis de ciencia ficcion","que peliculas de ciencia ficcion tienes?", "muestrame todas las peliculas de ciencia ficcion que tengas", "que nuevas peliculas de ciencia ficcion hay", "peliculas de ciencia ficcion","que peliculas de ciencia ficcion hay?","todas las peliculas de ciencia ficcion"],
+         "responses": ["genial, aqui tengo todas las peliculas de ciencia ficcion","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "aventura",
+         "patterns": ["pelis de aventura","que peliculas de aventura tienes?", "muestrame todas las peliculas de aventura que tengas", "que nuevas peliculas de aventura hay", "peliculas de aventura","que peliculas de aventura hay?","todas las peliculas de aventura"],
+         "responses": ["genial, aqui tengo todas las peliculas de aventura","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "suspenso",
+         "patterns": ["pelis de suspenso","que peliculas de suspenso tienes?", "muestrame todas las peliculas de suspenso que tengas", "que nuevas peliculas de suspenso hay", "peliculas suspenso","que peliculas de suspenso hay?","todas las peliculas de suspenso"],
+         "responses": ["genial, aqui tengo todas las peliculas de suspenso","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "romance",
+         "patterns": ["pelis de romance","que peliculas de romance tienes?", "muestrame todas las peliculas de romance que tengas", "que nuevas peliculas de romance hay", "peliculas de romance","que peliculas de romance hay?","todas las peliculas de romance"],
+         "responses": ["genial, aqui tengo todas las peliculas de romance","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "fantasia",
+         "patterns": ["pelis de fantasia","que peliculas de fantasia tienes?", "muestrame todas las peliculas de fantasia que tengas", "que nuevas peliculas de fantasia hay", "peliculas de fantasia","que peliculas de fantasia hay?","todas las peliculas de fantasia"],
+         "responses": ["genial, aqui tengo todas las peliculas de fantasia","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "drama",
+         "patterns": ["pelis de drama","que peliculas de drama tienes?", "muestrame todas las peliculas de drama que tengas", "que nuevas peliculas de drama hay", "peliculas de drama","que peliculas de drama hay?","todas las peliculas de drama"],
+         "responses": ["genial, aqui tengo todas las peliculas de drama","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "crimen",
+         "patterns": ["pelis de crimen","que peliculas de crimen tienes?", "muestrame todas las peliculas de crimen que tengas", "que nuevas peliculas de crimen hay", "peliculas de crimen","peliculas sobre crimen","que peliculas de crimen hay?","todas las peliculas de crimen"],
+         "responses": ["genial, aqui tengo todas las peliculas de crimen","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+        {"tag": "misterio",
+         "patterns": ["pelis de misterio","que peliculas de misterio tienes?", "muestrame todas las peliculas de misterio que tengas", "que nuevas peliculas de misterio hay", "peliculas de misterio","que peliculas de misterio hay?","todas las peliculas de misterio"],
+         "responses": ["genial, aqui tengo todas las peliculas de misterio","estas son las que tengo por ahora","algunas de las que tengo aqui estan","cual te gustaria ver? :)"],
+         "context_set": ""
+        },
+    
+    
+    
+        {"tag": "fail",
+         "patterns": ["sdfsadfasdfasdf", "asdfsdfs", "asdfass"],
+         "responses": ["Lo siento, no pude entenderte :( !", "no entendi, puedes intentar ser mas especifico","no entiendo lenguaje EMO","podrias escribir mas claro?","acaso eres un alien?, no te eh entendido","soy experto en peliculas, preguntame sobre ese tema porque no te eh entendido", "no fui entrenado para eso","no se nada de eso, pregunta otra cosa"],
+         "context_set": ""
+        }
+   ]
+}
